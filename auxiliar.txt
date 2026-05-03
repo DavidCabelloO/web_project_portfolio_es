@@ -1,0 +1,6 @@
+width: 793;
+height: 156;
+top: 89px;
+left: 120px;
+angle: 0 deg;
+opacity: 1;
