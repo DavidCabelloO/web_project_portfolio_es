@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="icon" type="image" href="./mimiico.ico" />
+    <link rel="icon" type="image" href="./favicon.ico" />
 
     <!-- aquí iria las conexiones de google fonts-->
   </head>
@@ -33,11 +33,16 @@
         </p>
         <nav class="nav">
           <div class="nav__container">
-            <a href="#" class="nav__link">Descargar CV</a>
+            <a
+              href="./web documents/David Salvador Cabello Ortega.pdf"
+              class="nav__link"
+              target="_blank"
+              >Descargar CV</a
+            >
             <div class="nav__pretty-block"></div>
           </div>
           <div class="nav__container">
-            <a href="#" class="nav__link">Enlace a GitHub</a>
+            <a href="https://github.com/DavidCabelloO" class="nav__link" target="_blank">Enlace a GitHub</a>
             <div class="nav__pretty-block"></div>
           </div>
           <div class="nav__container">
@@ -60,12 +65,12 @@
       <section class="intro">
         <h2 class="heading2 Mod__main-margin-1">Habilidades y herramientas</h2>
         <div class="logos__container">
-          <img src="images/html.png" alt="logo de html" class="logotool_5057" />
-          <img src="images/css.png" alt="logo de html" class="logotool_5057" />
-          <img src="images/JS.png" alt="logo de html" class="logotool" />
-          <img src="images/git.png" alt="logo de html" class="logotool" />
-          <img src="images/github.png" alt="logo de html" class="logotool" />
-          <img src="images/AI.png" alt="logo de html" class="logotool" />
+          <img src="images/html.png" alt="logo de HTML" class="logotool_5057" />
+          <img src="images/css.png" alt="logo de CSS" class="logotool_5057" />
+          <img src="images/JS.png" alt="logo de JavaScript" class="logotool" />
+          <img src="images/git.png" alt="logo de Git" class="logotool" />
+          <img src="images/github.png" alt="logo de GitHub" class="logotool" />
+          <img src="images/AI.png" alt="logo de ChatGpt" class="logotool" />
         </div>
       </section>
 
@@ -74,33 +79,78 @@
         <div class="projects-container">
           <!-- Tarjetas de proyecto aquí -->
           <div class="project__subcontainer">
-            <img
-              src="./images/Project1 Coffee Shop.png"
-              alt="imagen de proyecto 1"
-              class="project__thumbnail"
-            />
+            <div class="project__thumbnail Mod__thumbnail1" role="img" aria-label="Captura del proyecto de cafeteria">
+              <img src="./images/html.png" class="Mod__project-thumbnail-logo" alt="logo de HTML" />
+              <img src="./images/CSS.png" class="Mod__project-thumbnail-logo" alt="logo de CSS" />
+            </div>
             <div class="project__description">
               <div class="project__desc-title">Página web de una cafetería</div>
               <div class="project__desc-info">
-                Desarrollo de una landing page responsiva para una cafetería
-                siguiendo un brief de diseño. Incluye estructura semántica,
-                maquetación con Flexbox, creación de secciones nuevas y un
-                formulario de contacto funcional. Logro: Implementé desde cero
-                el diseño completo de la página, organicé el proyecto con buenas
-                prácticas y publiqué la versión final utilizando GitHub Pages.
+                <p>
+                  Desarrollo de una landing page responsiva para una cafetería
+                  siguiendo un brief de diseño. Incluye estructura semántica,
+                  maquetación con Flexbox, creación de secciones nuevas y un
+                  formulario de contacto funcional.
+                </p>
+                <p>
+                  Logro: Implementé desde cero el diseño completo de la página,
+                  organicé el proyecto con buenas prácticas y publiqué la
+                  versión final utilizando GitHub Pages.
+                </p>
+              </div>
+              <div class="project__container-demo-git">
+                <a class="project__subcontainer-demo-git" href="https://davidcabelloo.github.io/web_project_coffeeshop_es/" target="_blank">
+                  <img
+                    src="./images/union.png"
+                    alt="imagen de unión"
+                    class="project__logo"
+                  />
+                  <p class="project__link-demo-git">Demo en vivo</p>
+                </a>
+                <a class="project__subcontainer-demo-git" href="https://github.com/DavidCabelloO/web_project_coffeeshop_es" target="_blank">
+                  <img
+                    src="./images/github2.png"
+                    alt="imagen de github"
+                    class="project__logo"
+                  />
+                  <p class="project__link-demo-git Mod__white">GitHub</p>
+                </a>
               </div>
             </div>
           </div>
 
           <div class="project__subcontainer">
+            <div class="project__thumbnail Mod__thumbnail2" role="img" aria-label="Captura de pantalla del proyecto tecnomatix">
+              <img src="./images/JS.png" class="Mod__project-thumbnail-logo" alt="logo de JS" />
+              <img src="./images/React.png" class="Mod__project-thumbnail-logo" alt="logo de React" />
+            </div>
+            <!--
             <img
-              src="./images/project 2 test.png"
+              src="./images/Project2 Tecnomatix.jpeg"
               alt="imagen de proyecto 2"
               class="project__thumbnail"
             />
+            -->
             <div class="project__description">
-              <div class="project__desc-title">Mi proyecto</div>
-              <div class="project__desc-info">Descripción del proyecto</div>
+              <div class="project__desc-title">Proyecto 2 tecnomatix</div>
+              <div class="project__desc-info">Realicé una simulación de un planta en la universidad. Queda adjunto el video de evidencia.</div>
+              <div class="project__container-demo-git">
+                <a class="project__subcontainer-demo-git" href="https://youtu.be/GCRQYV4PlhM?si=P47AEhNCr7jyLMOO" target="_blank">
+                  <img
+                    src="./images/union.png"
+                    alt="imagen de unión"
+                    class="project__logo"
+                  />
+                  <p class="project__link-demo-git">Demo en vivo</p>
+                </a>
+                <a class="project__subcontainer-demo-git" href="www.google.com" target="_blank">
+                  <img
+                    src="./images/github2.png"
+                    alt="imagen de github"
+                    class="project__logo"
+                  />
+                  <p class="project__link-demo-git Mod__white">GitHub</p>
+                </a>
             </div>
           </div>
         </div>
@@ -111,6 +161,28 @@
     <footer class="footer">
       <h2 class="footer__heading">Contacto</h2>
       <p class="footer__copyright">david.cabello.ortega.20@gmail.com</p>
+      <div class="footer__social-media">
+        <img
+          src="./images/LinkedIn.png"
+          alt="logo de LinkedIn"
+          class="Mod__social-media-logo"
+        />
+        <img
+          src="./images/Facebook.png"
+          alt="logo de Facebook"
+          class="Mod__social-media-logo"
+        />
+        <img
+          src="./images/Instragram.png"
+          alt="logo de Instagram"
+          class="Mod__social-media-logo"
+        />
+        <img
+          src="./images/X.png"
+          alt="logo de X"
+          class="Mod__social-media-logo"
+        />
+      </div>
       <div class="circle Mod__circle-footer"></div>
     </footer>
   </body>
