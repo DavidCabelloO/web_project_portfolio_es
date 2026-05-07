@@ -1,9 +1,4 @@
-width: 793;
-height: 156;
-top: 89px;
-left: 120px;
-angle: 0 deg;
-opacity: 1;
+Notas auxiliares
 
 https://DavidCabelloO.github.io/web_project_coffeeshop_es
 https://DavidCabelloO.github.io/web_project_portfolio_es
@@ -15,3 +10,4 @@ https://DavidCabelloO.github.io/web_project_portfolio_es
 1100px
 1500px
 */
+

@@ -4,7 +4,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Mi portafolio</title>
 
     <link rel="stylesheet" href="./styles/normalize.css" />
@@ -16,10 +15,10 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <div class="header__info">
+      <section class="header__info">
         <h1>David Salvador Cabello Ortega</h1>
         <p class="header__info-item Mod__gray-color-profile">
-          Desarrollador Full-Stack Junior | Typscript, React, Node.js
+          Desarrollador Full-Stack Junior | Typescript, React, Node.js
         </p>
         <p class="header__info-item">
           Desarrollador web junior con experiencia práctica creando interfaces
@@ -31,26 +30,26 @@
           aprendiendo, asumir nuevos retos y aprovechar oportunidades para
           crecer como desarrollador.
         </p>
-        <nav class="nav">
-          <div class="nav__container">
-            <a
-              href="./web documents/David Salvador Cabello Ortega.pdf"
-              class="nav__link"
-              target="_blank"
-              >Descargar CV</a
-            >
-            <div class="nav__pretty-block"></div>
-          </div>
-          <div class="nav__container">
-            <a href="https://github.com/DavidCabelloO" class="nav__link" target="_blank">Enlace a GitHub</a>
-            <div class="nav__pretty-block"></div>
-          </div>
-          <div class="nav__container">
-            <a href="#" class="nav__link">Hablemos</a>
-            <div class="nav__pretty-block"></div>
-          </div>
+
+        <nav class="navigation">
+            <ul class="profile__links">
+                <li class="profile__item">
+                <a href="./web documents/David Salvador Cabello Ortega.pdf"
+                  class="profile__link"
+                  target="_blank"
+                  >Descargar CV</a
+                >
+              </li>
+              <li class="profile__item">
+                <a href="https://github.com/DavidCabelloO" class="profile__link" target="_blank">Enlace a GitHub</a>
+              </li>
+              <li class="profile__item">
+                <a href="#" class="profile__link">Hablemos</a>
+              </li>
+            </ul>
+          
         </nav>
-      </div>
+      </section>
 
       <img
         src="./images/profile photo.jpg"
@@ -65,8 +64,8 @@
       <section class="intro">
         <h2 class="heading2 Mod__main-margin-1">Habilidades y herramientas</h2>
         <div class="logos__container">
-          <img src="images/html.png" alt="logo de HTML" class="logotool_5057" />
-          <img src="images/CSS.png" alt="logo de CSS" class="logotool_5057" />
+          <img src="images/html.png" alt="logo de HTML" class="logotool__5057" />
+          <img src="images/CSS.png" alt="logo de CSS" class="logotool__5057" />
           <img src="images/JS.png" alt="logo de JavaScript" class="logotool" />
           <img src="images/git.png" alt="logo de Git" class="logotool" />
           <img src="images/github.png" alt="logo de GitHub" class="logotool" />
@@ -124,13 +123,7 @@
               <img src="./images/JS.png" class="Mod__project-thumbnail-logo" alt="logo de JS" />
               <img src="./images/React.png" class="Mod__project-thumbnail-logo" alt="logo de React" />
             </div>
-            <!--
-            <img
-              src="./images/Project2 Tecnomatix.jpeg"
-              alt="imagen de proyecto 2"
-              class="project__thumbnail"
-            />
-            -->
+
             <div class="project__description">
               <div class="project__desc-title">Proyecto 2 tecnomatix</div>
               <div class="project__desc-info">Realicé una simulación de un planta en la universidad. Queda adjunto el video de evidencia.</div>
@@ -173,7 +166,7 @@
           class="Mod__social-media-logo"
         />
         <img
-          src="./images/Instragram.png"
+          src="./images/Instagram.png"
           alt="logo de Instagram"
           class="Mod__social-media-logo"
         />
